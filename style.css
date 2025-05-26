@@ -1,0 +1,267 @@
+body {
+    font-family: 'Tajawal', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f8fa;
+    color: #202045;
+    line-height: 1.8;
+}
+
+.container {
+    width: 93%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 0 15px 0;
+}
+
+header {
+    background: linear-gradient(120deg, #004aad 60%, #00c2ff 100%);
+    color: #fff;
+    padding: 0 0 8px 0;
+    border-radius: 0 0 22px 22px;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    background: #fff3;
+    border-radius: 12px;
+}
+
+header h1 {
+    margin: 0 0 5px 0;
+    font-size: 2.1em;
+    letter-spacing: 0.04em;
+}
+
+header .subtitle {
+    margin: 0;
+    font-size: 1em;
+    opacity: 0.97;
+}
+
+nav {
+    text-align: center;
+    margin: 15px 0 3px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+    font-size: 1.07em;
+    transition: color 0.22s;
+}
+
+nav a:hover {
+    color: #ffd96b;
+}
+
+.whatsapp-btn {
+    background: #fff;
+    color: #13af37;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.04em;
+    padding: 7px 13px 7px 7px;
+    border-radius: 22px;
+    text-decoration: none;
+    box-shadow: 0 2px 10px #00d85a26;
+    border: none;
+    transition: background 0.18s;
+}
+.whatsapp-btn img {
+    width: 23px;
+    margin-left: 6px;
+}
+.whatsapp-btn:hover {
+    background: #13af37;
+    color: #fff;
+}
+
+.hero {
+    background: linear-gradient(110deg, #eaf1ff 60%, #b3eaff 100%);
+    border-bottom: 1px solid #c7d8f5;
+    padding: 44px 0 20px 0;
+}
+
+.hero-flex {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero h2 {
+    font-size: 2.1em;
+    margin-top: 0;
+}
+
+.hero .cta-btn {
+    background: #004aad;
+    color: #fff;
+    padding: 12px 32px;
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 40px;
+    font-size: 1.09em;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    box-shadow: 0 2px 8px #004aad36;
+    transition: background 0.2s;
+}
+.hero .cta-btn:hover {
+    background: #00c2ff;
+    color: #004aad;
+}
+
+.hero-img {
+    width: 240px;
+    border-radius: 18px;
+    box-shadow: 0 2px 18px #0002;
+}
+
+section {
+    margin-bottom: 28px;
+}
+
+.about h3,
+.courses h3,
+.contact h3,
+.gallery h3 {
+    color: #004aad;
+    font-size: 1.3em;
+    margin-bottom: 9px;
+}
+
+.features {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.feature {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #cce8ff44;
+    padding: 14px 11px;
+    text-align: center;
+    flex: 1 1 170px;
+    min-width: 130px;
+    max-width: 210px;
+}
+.feature img {
+    width: 38px;
+    margin-bottom: 5px;
+}
+
+.courses-grid {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+.course-card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 2px 16px #98c2e048;
+    padding: 13px 14px 17px 14px;
+    flex: 1 1 270px;
+    min-width: 220px;
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 13px;
+}
+.course-card img {
+    width: 100%;
+    max-width: 210px;
+    border-radius: 12px;
+    margin-bottom: 11px;
+    box-shadow: 0 2px 9px #8fd5ff29;
+}
+.course-card h4 {
+    color: #004aad;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+.gallery-grid {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+}
+.gallery-grid img {
+    width: 180px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 11px #a0cdf145;
+    border: 1px solid #e0e8ff;
+}
+.contact-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #bbeeff22;
+    padding: 19px 17px;
+    margin-top: 10px;
+}
+.contact-box ul {
+    list-style: none;
+    padding: 0;
+}
+.contact-box ul li {
+    margin-bottom: 7px;
+    font-size: 1.07em;
+}
+.contact-box a {
+    color: #004aad;
+    text-decoration: none;
+    font-weight: 500;
+}
+.contact-box a:hover {
+    text-decoration: underline;
+}
+.address {
+    color: #202045a0;
+    font-size: 0.98em;
+    margin-top: 9px;
+}
+footer {
+    background: #004aad;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0 12px 0;
+    font-size: 1em;
+    margin-top: 30px;
+    border-radius: 14px 14px 0 0;
+}
+
+@media (max-width: 900px) {
+    .hero-flex, .features, .courses-grid, .gallery-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container {
+        width: 99%;
+        padding: 0 5px;
+    }
+    .header-flex {
+        flex-direction: column;
+        gap: 3px;
+        align-items: flex-start;
+    }
+}
